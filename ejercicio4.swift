@@ -19,8 +19,8 @@ class MathOperator{
     }
 }
 
-let additionResult = MathOperator.realizarOperacion(10, 5,addition)
+let additionResult = MathOperator.realizarOperacion(10, 5,.addition)
 print("Sum Result: \(additionResult)")
 
-let divisionResult = MathOperator.realizarOperacion(20,2,division)
+let divisionResult = MathOperator.realizarOperacion(20,2,.division)
 print("Result of Division: \(divisionResult)")
